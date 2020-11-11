@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import Navbar from './components/navbar/Navbar';
+import Content from './components/contents/Content';
 import './App.css';
 
 class App extends Component{
@@ -7,6 +8,7 @@ class App extends Component{
     return (
       <Fragment>
         <Navbar />
+        <Content />
       </Fragment>
     )
   }

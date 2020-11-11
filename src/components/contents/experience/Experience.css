@@ -1,0 +1,51 @@
+.experience {
+    margin-top: 180px;
+    margin-bottom: 200px;
+}
+
+.experience .experience-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.experience .experience-title h1{
+    font-size: 2.5rem;
+}
+
+.experience .experience-title p{
+    font-size: 1.0rem;
+}
+
+.experience .card {
+    display: flex;
+    justify-content: center;
+}
+
+.experience .card .card-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.experience .card .card-item img:hover{
+    cursor: pointer;
+}
+
+.experience .card .card-item {
+    text-align: center;
+    width: 180px;
+    margin: 0 15px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px rgba(128, 128, 128, 0.301);
+}
+
+.experience .card .card-item h3{
+    font-size: 1.0rem;
+    margin-top: 8px;
+}
+
+.experience .card .card-item p{
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
