@@ -28,11 +28,14 @@
 }
 
 .jumbotron .row .btn-jumbotron a:hover{
-    background: #dddbdb;
-    color: #514A9D;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    background: linear-gradient(to right,#24C6DC, #514A9D);
+    color: #ffffff;
     cursor: pointer;
     font-weight: 500;
-    transition: all 0.3s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .jumbotron .row .img-jumbotron {

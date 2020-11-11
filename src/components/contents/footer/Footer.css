@@ -1,0 +1,43 @@
+.footer {
+    margin-top: 180px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+.footer .row{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.footer .row .footer-icon-link {
+    color: #000000;
+    margin: 0 10px;
+}
+
+.footer .row .footer-icon-link:hover{
+    color: #4776E6;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.footer .sub-footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.footer .sub-footer .sub-footer-item h3{
+    font-size: 1.0rem;
+    margin-bottom: 20px;
+}
+
+.footer .sub-footer .sub-footer-item p{
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: grey;
+}

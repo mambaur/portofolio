@@ -12,6 +12,7 @@ class Introduction extends Component {
                         <h1>Let Me Introduce</h1>
                         <h1> Myself</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, facilis nisi amet asperiores officia excepturi ducimus fugiat! Cupiditate autem quibusdam quidem veritatis sed earum rerum asperiores aut excepturi animi. <br/><br/>Nihil, dolores molestias! Fuga ab aspernatur ipsa? Alias quaerat nulla praesentium quibusdam iure eveniet quas quasi!</p>
+                        <div className="btn-download-cv">Download CV</div>
                     </div>
                 </div>
             </Fragment>

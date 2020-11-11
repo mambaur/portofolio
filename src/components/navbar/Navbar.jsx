@@ -10,6 +10,22 @@ class Navbar extends Component{
         this.setState({isClicked : !this.state.isClicked})
     }
 
+    componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll);
+      }
+    
+      componentWillUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+      }
+    
+      handleScroll = () => {
+        if (window.scrollY > 20) {
+          document.querySelector("nav").className = "navbar isScrolled"
+        } else {
+          document.querySelector("nav").className = "navbar";
+        }
+      };
+
     render(){
         return (
             <Fragment>
@@ -29,7 +45,7 @@ class Navbar extends Component{
                                 <li><a className="nav-links-mobile" href="caraguna.com">Download CV</a></li>
                             </ul>
 
-                            <button className="btn">Download CV</button>
+                            <button className="btn"><i class="fas fa-download"></i> Download CV</button>
                         </div>
                     </div>
                 </nav>

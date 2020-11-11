@@ -12,7 +12,7 @@ class Jumbotron extends Component {
                         </h1>
                         <h3 className="sub-title">Programmer</h3>
                         <div className="btn-jumbotron">
-                            <a href="#">Hire me now</a>
+                            <a href="#"><span>Hire me now</span> <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div className="row">

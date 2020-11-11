@@ -1,0 +1,34 @@
+.skill {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.skill h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.skill .skill-item {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill .skill-item .skill-card {
+    margin-right: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px #00000025;
+    margin-bottom: 50px;
+}
+
+.skill .skill-item .skill-card:hover{
+    background:#0000001a;
+    cursor: pointer;
+}
+
+
+.skill .skill-item .skill-card img{
+    width: 75px;
+}

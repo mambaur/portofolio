@@ -31,6 +31,12 @@ class Experience extends Component {
                             <p>Tahun 2016-2020</p>
                             <p>Teknik Informatika</p>
                         </div>
+                        <div className="card-item">
+                            <img src="https://pbs.twimg.com/profile_images/378800000119212907/407f7c467179ab59a2f7702f758f7410_400x400.jpeg" alt=""/>
+                            <h3>UKM Lumut Organization</h3>
+                            <p>Tahun 2016-2020</p>
+                            <p>Teknik Informatika</p>
+                        </div>
                     </div>
                 </div>
             </Fragment>

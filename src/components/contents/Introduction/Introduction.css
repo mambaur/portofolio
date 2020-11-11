@@ -19,3 +19,22 @@
     font-size: 0.9rem;
     color: gray;
 }
+
+.introduction .introduction-text .btn-download-cv{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 7px 13px;
+    background: linear-gradient(to right,#24C6DC, #514A9D);
+    color: #ffffff;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.introduction .introduction-text .btn-download-cv:hover{
+    cursor: pointer;
+    border-radius: 3px;
+    outline: 1px solid #514A9D;
+    background: #ffffff;
+    color:#514A9D;
+    transition: all 0.4s ease-out;
+}
