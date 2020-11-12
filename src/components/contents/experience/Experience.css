@@ -48,3 +48,30 @@
     margin-top: 5px;
     font-size: 0.8rem;
 }
+
+@media screen and (max-width: 960px){
+    .experience{
+        width: 100%;
+    }
+
+    .experience .experience-title{
+        margin-bottom: 40px;
+    }
+
+    .experience .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    .experience .card .card-item {
+        width: 100%;
+        padding: 25px 0;
+        margin: 0 0;
+        margin-bottom: 15px;
+    }
+    .experience .experience-title{
+        text-align: start;
+    }
+}

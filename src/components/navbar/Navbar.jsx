@@ -6,12 +6,25 @@ class Navbar extends Component{
         isClicked : false
     }
 
+    
+    handleScrollElement = (id)=>{
+        const element = document.getElementById(id);
+        element.scrollIntoView({behavior: 'smooth'});
+        this.setState({isClicked : !this.state.isClicked})
+    }
+
+    scrolltoTop = ()=>{
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        this.setState({isClicked : !this.state.isClicked})
+    }
+
     handleClick = ()=>{
         this.setState({isClicked : !this.state.isClicked})
     }
 
     componentDidMount() {
         window.addEventListener("scroll", this.handleScroll);
+        document.querySelector(".nav-item").className = "nav-item nav-not-scrolled";
       }
     
       componentWillUnmount() {
@@ -20,9 +33,11 @@ class Navbar extends Component{
     
       handleScroll = () => {
         if (window.scrollY > 20) {
-          document.querySelector("nav").className = "navbar isScrolled"
+          document.querySelector("nav").className = "isScrolled";
+          document.querySelector(".nav-item").className = "nav-item nav-scrolled";
         } else {
-          document.querySelector("nav").className = "navbar";
+          document.querySelector("nav").className = "";
+          document.querySelector(".nav-item").className = "nav-item nav-not-scrolled";
         }
       };
 
@@ -31,17 +46,17 @@ class Navbar extends Component{
             <Fragment>
                 <nav>
                     <div className="nav-item">
-                        <h1 className="navbar-logo">Bauroziq</h1>
+                        <h1 className="navbar-logo" onClick={()=>this.scrolltoTop()}>Bauroziq</h1>
                         <div className="menu-icon" onClick={this.handleClick}>
                             <i className={this.state.isClicked ? "fas fa-times" : "fas fa-bars"}></i>
                         </div>
                         <div className="menu">
                             <ul className={this.state.isClicked ? "nav-menu active" : "nav-menu"}>
-                                <li><a className="nav-links" href="caraguna.com">Home</a></li>
-                                <li><a className="nav-links" href="caraguna.com">Portofolio</a></li>
-                                <li><a className="nav-links" href="caraguna.com">Blog</a></li>
-                                <li><a className="nav-links" href="caraguna.com">About</a></li>
-                                <li><a className="nav-links" href="caraguna.com">Contact</a></li>
+                                <li><a className="nav-links" onClick={()=>this.scrolltoTop()}>Home</a></li>
+                                <li><a className="nav-links" onClick={()=>this.handleScrollElement('portofolio')} >Portofolio</a></li>
+                                <li><a className="nav-links" href="https://caraguna.com" target="_blank">Blog</a></li>
+                                <li><a className="nav-links" onClick={()=>this.handleScrollElement('skill')}>Skill</a></li>
+                                <li><a className="nav-links" onClick={()=>this.handleScrollElement('introduction')}>About</a></li>
                                 <li><a className="nav-links-mobile" href="caraguna.com">Download CV</a></li>
                             </ul>
 

@@ -4,6 +4,7 @@ nav {
     top: 0;
     right: 0;
     left: 0;
+    z-index: 2;
 }
 
 .isScrolled {
@@ -11,9 +12,18 @@ nav {
     transition: all 0.4s ease-in;
 }
 
+.nav-scrolled {
+    height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.nav-not-scrolled{
+    height: 80px;
+    transition:all 0.3s ease-in;
+}
+
 .nav-item {
     background: #fff;
-    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,6 +59,7 @@ nav {
 .nav-links:hover{
     transition: all 0.2s ease-out;
     color: black;
+    cursor: pointer;
 }
 
 .nav-links-mobile{
@@ -87,7 +98,7 @@ nav {
         flex-direction: column;
         justify-content: start;
         width: 80%;
-        height: 100vh;
+        height: 120vh;
         position: absolute;
         top: 60px;
         left: -100%;
@@ -155,6 +166,11 @@ nav {
 
     .btn {
         display: none;
+    }
+
+    .nav-scrolled {
+        height: 60px;
+        transition: none;
     }
 }
 

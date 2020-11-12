@@ -1,8 +1,9 @@
 .introduction {
-    margin-top: 100px;
+    margin-top: 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    scroll-margin-top: 150px;
 }
 
 .introduction img {
@@ -37,4 +38,16 @@
     background: #ffffff;
     color:#514A9D;
     transition: all 0.4s ease-out;
+}
+
+@media screen and (max-width: 960px){
+    .introduction{
+        width: 100%;
+        flex-direction: column;
+        scroll-margin-top: 80px;
+    }
+
+    .introduction img {
+        width: 300px;
+    }
 }

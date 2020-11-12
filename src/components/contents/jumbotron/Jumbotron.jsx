@@ -5,12 +5,15 @@ class Jumbotron extends Component {
     render(){
         return (
             <Fragment>
-                <div className="jumbotron">
+                <div id="jumbotron" className="jumbotron">
                     <div className="row">
                         <h1 className="title">
                             Hi, I am Bauroziq
                         </h1>
-                        <h3 className="sub-title">Programmer</h3>
+                        <div className="sub-title">
+                            <h3>Programmer</h3>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Animated-Flag-Indonesia.gif" alt=""/>
+                        </div>
                         <div className="btn-jumbotron">
                             <a href="#"><span>Hire me now</span> <i class="fas fa-arrow-right"></i></a>
                         </div>

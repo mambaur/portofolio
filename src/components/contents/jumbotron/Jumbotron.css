@@ -10,8 +10,19 @@
 }
 
 .sub-title {
+    display: inline-block;
     padding: 10px 0;
+}
+
+.sub-title h3{
+    display: inline-block;
     font-size: 1.5rem;
+}
+
+.sub-title img{
+    display: inline-block;
+    width: 35px;
+    margin-left: 5px;
 }
 
 .jumbotron .row .btn-jumbotron a{
@@ -40,4 +51,18 @@
 
 .jumbotron .row .img-jumbotron {
     width: 500px;
+}
+
+@media screen and (max-width:960px){
+    .jumbotron {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .jumbotron .row .img-jumbotron {
+        width: 300px;
+    }
 }

@@ -5,6 +5,7 @@ import Experience from './experience/Experience';
 import Subscribe from './subscribe/Subscribe';
 import Footer from './footer/Footer';
 import Skill from './skill/Skill';
+import Portofolio from './portofolio/Portofolio';
 import './Content.css';
 
 class Content extends Component {
@@ -15,6 +16,7 @@ class Content extends Component {
                     <Jumbotron />
                     <Introduction />
                     <Skill />
+                    <Portofolio />
                     <Experience />
                     <Subscribe />
                     <Footer />

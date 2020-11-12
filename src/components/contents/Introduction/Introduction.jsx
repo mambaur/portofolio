@@ -5,7 +5,7 @@ class Introduction extends Component {
     render(){
         return(
             <Fragment>
-                <div className="introduction">
+                <div id="introduction" className="introduction">
                     <img src="https://cdn.dribbble.com/users/77598/screenshots/5919494/dribbble.png" alt=""/>
 
                     <div className="introduction-text">

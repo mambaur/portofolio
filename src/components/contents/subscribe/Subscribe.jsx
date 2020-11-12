@@ -5,7 +5,7 @@ class Subscribe extends Component {
     render(){
         return(
             <Fragment>
-                <div className="subscribe">
+                <div id="subscribe" className="subscribe">
                     <div className="subscribe-title">
                         <h1>Get Update From Anywhere</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, soluta!</p>
