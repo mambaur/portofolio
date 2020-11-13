@@ -9,7 +9,7 @@ class Navbar extends Component{
     
     handleScrollElement = (id)=>{
         const element = document.getElementById(id);
-        element.scrollIntoView({behavior: 'smooth'});
+        element.scrollIntoView({behavior: 'smooth', alignToTop: true, block:"start"});
         this.setState({isClicked : !this.state.isClicked})
     }
 

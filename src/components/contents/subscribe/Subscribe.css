@@ -1,6 +1,6 @@
 .subscribe {
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     height: 350px;
     background: linear-gradient(to right, #4776E6, #8E54E9);
     display: flex;
@@ -60,6 +60,10 @@
 }
 
 @media screen and (max-width: 960px){
+
+    .subscribe {
+        margin-top: 150px;
+    }
 
     .subscribe .subscribe-content .btn-subscribe{
         margin-top: 15px;

@@ -8,7 +8,7 @@ class Skill extends Component{
             <Fragment>
                 <div id="skill" className="skill">
                     <h1>My Skill</h1>
-                    <p>My Skill performance in technology</p>
+                    <p>My skill performance in technology</p>
                     <div className="skill-item">
                         <div className="skill-card">
                             <img src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" alt=""/>

@@ -56,23 +56,31 @@ const MobileGalery = ()=>{
         <div className="galery">
             <div className="galery-item">
                 <a href="https://play.google.com/store/apps/details?id=com.caraguna.alquran_app" target="_blank"><img src={alquran} alt=""/></a>
-                <h4>Al Quran</h4>
-                <p>Al Quran Online Indonesia</p>
+                <div className="galery-title">
+                    <h4>Al Quran</h4>
+                    <p>Al Quran Online Indonesia</p>
+                </div>
             </div>
             <div className="galery-item">
                 <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.dompet_apps"><img src={dompet} alt=""/></a>
-                <h4>Dompet Saku</h4>
-                <p>Money management application</p>
+                <div className="galery-title">
+                    <h4>Dompet Saku</h4>
+                    <p>Money management application</p>
+                </div>
             </div>
             <div className="galery-item">
                 <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.recipe_apps"><img src={recipe} alt=""/></a>
-                <h4>Recipe Application</h4>
-                <p>Indonesia food recipe</p>
+                <div className="galery-title">
+                    <h4>Recipe Application</h4>
+                    <p>Indonesia food recipe</p>
+                </div>
             </div>
             <div className="galery-item">
                 <a target="_blank" href="https://play.google.com/store/apps/details?id=com.Devb.sipakar_apps"><img src={sipakar} alt=""/></a>
-                <h4>Sipakar Tembakau</h4>
-                <p>Identification of tobacco plant disease</p>
+                <div className="galery-title">
+                    <h4>Sipakar Tembakau</h4>
+                    <p>Identification of tobacco plant disease</p>
+                </div>
             </div>
         </div>
     )
@@ -83,18 +91,24 @@ const WebsiteGalery = ()=>{
         <div className="galery">
             <div className="galery-item">
                 <a target="_blank" href="https://shop.caraguna.com"><img src={foodshop} alt=""/></a>
-                <h4>Food Shop</h4>
-                <p>Jember typical food</p>
+                <div className="galery-title">
+                    <h4>Food Shop</h4>
+                    <p>Jember typical food</p>
+                </div>
             </div>
             <div className="galery-item">
                 <a target="_blank" href=""><img src={portofolio} alt=""/></a>
-                <h4>Portofolio Website</h4>
-                <p>My portofolio website</p>
+                <div className="galery-title">
+                    <h4>Portofolio Website</h4>
+                    <p>My portofolio website</p>
+                </div>
             </div>
             <div className="galery-item">
                 <a target="_blank" href="https://sipakar.caraguna.com/"><img src={sipakarweb} alt=""/></a>
-                <h4>Sipakar Website</h4>
-                <p>Identification of tobacco plant disease web</p>
+                <div className="galery-title">
+                    <h4>Sipakar Website</h4>
+                    <p>Identification of tobacco plant disease web</p>
+                </div>
             </div>
         </div>
     )
@@ -105,28 +119,38 @@ const LogoGalery = ()=>{
         <div className="galery">
             <div className="galery-item">
                 <img src={amplify} alt=""/>
-                <h4>Amplify Logo</h4>
-                <p>Amplify elegant logo</p>
+                <div className="galery-title">
+                    <h4>Amplify Logo</h4>
+                    <p>Amplify elegant logo</p>
+                </div>
             </div>
             <div className="galery-item">
                 <img src={authent} alt=""/>
-                <h4>Autent Logo</h4>
-                <p>Simple authent logo</p>
+                <div className="galery-title">
+                    <h4>Autent Logo</h4>
+                    <p>Simple authent logo</p>
+                </div>
             </div>
             <div className="galery-item">
                 <img src={dog} alt=""/>
-                <h4>Dog Logo</h4>
-                <p>Beautiful dog shit logo</p>
+                <div className="galery-title">
+                    <h4>Dog Logo</h4>
+                    <p>Beautiful dog shit logo</p>
+                </div>
             </div>
             <div className="galery-item">
                 <img src={option} alt=""/>
-                <h4>Option Lance Logo</h4>
-                <p>Option lance simple logo</p>
+                <div className="galery-title">
+                    <h4>Option Lance Logo</h4>
+                    <p>Option lance simple logo</p>
+                </div>
             </div>
             <div className="galery-item">
                 <img src={verrelli} alt=""/>
-                <h4>Verrelli Logo</h4>
-                <p>Verrely modern logo</p>
+                <div className="galery-title">
+                    <h4>Verrelli Logo</h4>
+                    <p>Verrely modern logo</p>
+                </div>
             </div>
         </div>
     )

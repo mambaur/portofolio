@@ -34,7 +34,6 @@
     background: linear-gradient(to right,#24C6DC, #514A9D);
     align-content: center;
     border-radius: 5px;
-    box-sizing: border-box;
     text-decoration: none;
 }
 
@@ -64,5 +63,9 @@
 
     .jumbotron .row .img-jumbotron {
         width: 300px;
+    }
+
+    .jumbotron .row .btn-jumbotron a:hover{
+        display: inline-block;
     }
 }
