@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import './Skill.css';
+import phplogo from '../../../assets/logo/logo-php.png';
 
 class Skill extends Component{
     render(){
@@ -10,7 +11,6 @@ class Skill extends Component{
                     <p>My Skill performance in technology</p>
                     <div className="skill-item">
                         <div className="skill-card">
-                            {/* <h3>Worpress</h3> */}
                             <img src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" alt=""/>
                             <div className="progress">
                                 <h4>90%</h4>
@@ -56,7 +56,7 @@ class Skill extends Component{
                             </div>
                         </div>
                         <div className="skill-card">
-                            <img src="https://i.dlpng.com/static/png/6812373_preview.png" alt=""/>
+                            <img src={phplogo} alt=""/>
                             <div className="progress">
                                 <h4>95%</h4>
                                 <div className="meter">
