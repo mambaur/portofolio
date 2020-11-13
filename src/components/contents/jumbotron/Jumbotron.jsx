@@ -15,7 +15,7 @@ class Jumbotron extends Component {
                             <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Animated-Flag-Indonesia.gif" alt=""/>
                         </div>
                         <div className="btn-jumbotron">
-                            <a href="#"><span>Hire me now</span> <i class="fas fa-arrow-right"></i></a>
+                            <a href="https://www.linkedin.com/in/mambaur-roziq-605962167/" target="_blank"><span>Hire me now</span> <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div className="row">

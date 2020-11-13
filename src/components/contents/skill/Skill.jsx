@@ -56,7 +56,7 @@ class Skill extends Component{
                             </div>
                         </div>
                         <div className="skill-card">
-                            <img src="https://lh3.googleusercontent.com/proxy/-mPC0pplNbXkaqEJ_gUA4rqelyxFtSdVXCBaiUsFJRMPTbiY4FR2-kvcWdmNFtyXbs6VYZ9IZr8A8y4RFzXJiA" alt=""/>
+                            <img src="https://i.dlpng.com/static/png/6812373_preview.png" alt=""/>
                             <div className="progress">
                                 <h4>95%</h4>
                                 <div className="meter">

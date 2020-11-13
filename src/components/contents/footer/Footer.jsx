@@ -46,7 +46,7 @@ class Footer extends Component {
                             <a href="" target="_blank"><p>Give feedback</p></a>
                         </div>
                     </div>
-                    <p>Designed & developed with <i class="fas fa-heart"></i> by <a href="#">Bauroziq</a> </p>
+                    <p>Designed & developed with <i class="fas fa-heart"></i> by <a href="">Bauroziq</a> </p>
                     <div className="row">
                         <a className="footer-icon-link" href="https://github.com/mambaur" target="_blank"><i class="fab fa-github"></i></a>
                         <a className="footer-icon-link" href="https://www.linkedin.com/in/mambaur-roziq-605962167/" target="_blank"><i class="fab fa-linkedin-in"></i></a>

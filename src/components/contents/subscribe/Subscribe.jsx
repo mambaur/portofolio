@@ -7,8 +7,8 @@ class Subscribe extends Component {
             <Fragment>
                 <div id="subscribe" className="subscribe">
                     <div className="subscribe-title">
-                        <h1>Get Update From Anywhere</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, soluta!</p>
+                        <h1>Get Update From Bauroziq</h1>
+                        <p>Drop your email below to get latest information from bauroziq</p>
                     </div>
                     <div className="subscribe-content">
                         <input className="subscribe-input" type="text" placeholder="Your email..."/>

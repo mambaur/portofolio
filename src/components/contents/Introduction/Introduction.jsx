@@ -11,8 +11,12 @@ class Introduction extends Component {
                     <div className="introduction-text">
                         <h1>Let Me Introduce</h1>
                         <h1> Myself</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, facilis nisi amet asperiores officia excepturi ducimus fugiat! Cupiditate autem quibusdam quidem veritatis sed earum rerum asperiores aut excepturi animi. <br/><br/>Nihil, dolores molestias! Fuga ab aspernatur ipsa? Alias quaerat nulla praesentium quibusdam iure eveniet quas quasi!</p>
-                        <div className="btn-download-cv">Download CV</div>
+                        <p>
+                            Hi, i am Mambaur Roziq Alwi, i was born in Jember, Indonesia. I have good communicative, tolerant, discipline, and target oriented. I am very interested in the development of technology, especially in programming.
+                            <br/><br/>
+                            I like to learn new things related to the latest technology in the world. Besides of that, I can work with the team better. 
+                        </p>
+                        <a href="https://bit.ly/bauroziq-resume" target="_blank"><div className="btn-download-cv">Download CV</div></a>
                     </div>
                 </div>
             </Fragment>
