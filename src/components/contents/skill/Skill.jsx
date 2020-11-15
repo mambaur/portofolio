@@ -13,7 +13,7 @@ class Skill extends Component{
                         <div className="skill-card">
                             <img src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" alt=""/>
                             <div className="progress">
-                                <h4>90%</h4>
+                                <h4>Flutter 90%</h4>
                                 <div className="meter">
                                     <span className="flutter"></span>
                                 </div>
@@ -22,7 +22,7 @@ class Skill extends Component{
                         <div className="skill-card">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" alt=""/>
                             <div className="progress">
-                                <h4>85%</h4>
+                                <h4>Laravel 85%</h4>
                                 <div className="meter">
                                     <span className="laravel"></span>
                                 </div>
@@ -31,7 +31,7 @@ class Skill extends Component{
                         <div className="skill-card">
                             <img src="https://cdn.auth0.com/blog/react-js/react.png" alt=""/>
                             <div className="progress">
-                                <h4>80%</h4>
+                                <h4>ReactJS 80%</h4>
                                 <div className="meter">
                                     <span className="react"></span>
                                 </div>
@@ -40,7 +40,7 @@ class Skill extends Component{
                         <div className="skill-card">
                             <img src="https://2.bp.blogspot.com/-tzm1twY_ENM/XlCRuI0ZkRI/AAAAAAAAOso/BmNOUANXWxwc5vwslNw3WpjrDlgs9PuwQCLcBGAsYHQ/s1600/pasted%2Bimage%2B0.png" alt=""/>
                             <div className="progress">
-                                <h4>95%</h4>
+                                <h4>Android 95%</h4>
                                 <div className="meter">
                                     <span className="android"></span>
                                 </div>
@@ -49,7 +49,7 @@ class Skill extends Component{
                         <div className="skill-card">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png" alt=""/>
                             <div className="progress">
-                                <h4>90%</h4>
+                                <h4>Dart 90%</h4>
                                 <div className="meter">
                                     <span className="dart"></span>
                                 </div>
@@ -58,7 +58,7 @@ class Skill extends Component{
                         <div className="skill-card">
                             <img src={phplogo} alt=""/>
                             <div className="progress">
-                                <h4>95%</h4>
+                                <h4>PHP 95%</h4>
                                 <div className="meter">
                                     <span className="php"></span>
                                 </div>
@@ -67,7 +67,7 @@ class Skill extends Component{
                         <div className="skill-card">
                             <img src="https://pngimg.com/uploads/mysql/mysql_PNG23.png" alt=""/>
                             <div className="progress">
-                                <h4>95%</h4>
+                                <h4>Mysql 95%</h4>
                                 <div className="meter">
                                     <span className="mysql"></span>
                                 </div>
@@ -76,7 +76,7 @@ class Skill extends Component{
                         <div className="skill-card">
                             <img src="https://sayapusing.com/wp-content/uploads/2019/04/javascript-icon-png-23.png" alt=""/>
                             <div className="progress">
-                                <h4>85%</h4>
+                                <h4>Javascript 85%</h4>
                                 <div className="meter">
                                     <span className="javascript"></span>
                                 </div>
@@ -85,7 +85,7 @@ class Skill extends Component{
                         <div className="skill-card">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png" alt=""/>
                             <div className="progress">
-                                <h4>95%</h4>
+                                <h4>Wordpress 95%</h4>
                                 <div className="meter">
                                     <span className="wordpress"></span>
                                 </div>
@@ -94,7 +94,7 @@ class Skill extends Component{
                         <div className="skill-card">
                             <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png" alt=""/>
                             <div className="progress">
-                                <h4>85%</h4>
+                                <h4>Java 85%</h4>
                                 <div className="meter">
                                     <span className="java"></span>
                                 </div>

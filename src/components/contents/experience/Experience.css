@@ -13,7 +13,7 @@
 
 .experience .experience-title p{
     margin-top: 10px;
-    font-size: 1.0rem;
+    font-size: 1.1rem;
 }
 
 .experience .card {
@@ -37,7 +37,7 @@
     display: inline-block;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 2px 2px 15px rgba(128, 128, 128, 0.301);
+    box-shadow: 2px 2px 25px rgba(128, 128, 128, 0.219);
 }
 
 .experience .card .card-item h3{
@@ -53,6 +53,7 @@
 @media screen and (max-width: 960px){
     .experience{
         width: 100%;
+        margin-top: 150px;
     }
 
     .experience .experience-title{
@@ -67,11 +68,29 @@
 
     .experience .card .card-item {
         width: 100%;
-        padding: 25px 0;
+        padding: 50px 20px;
         margin: 0 0;
         margin-bottom: 15px;
     }
     .experience .experience-title{
         text-align: start;
+    }
+    
+    .experience .card .card-item img {
+        width: 50%;
+        height: 50%;
+        margin-bottom: 20px;
+    }
+
+    .experience .card .card-item h3{
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+        padding: 0 40px;
+        font-weight: 500;
+    }
+    
+    .experience .card .card-item p{
+        font-size: 1.0rem;
+        color: #000000af;
     }
 }

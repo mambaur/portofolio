@@ -9,6 +9,10 @@
     margin-bottom: 10px;
 }
 
+.skill p{
+    font-size: 1.1rem;
+}
+
 .skill .skill-item {
     margin-top: 60px;
     display: flex;
@@ -38,7 +42,7 @@
 /* progress bar */
 .meter {
     background: none repeat scroll 0 0 #5555556b;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 25px;
     box-shadow: 0 -1px 1px rgba(255, 255, 255, 0.3) inset;
     height: 10px;
     margin-left: 15px;
@@ -97,12 +101,17 @@
     width: 85%;
 }
 
+.skill .skill-item .skill-card .progress h4{
+    margin-bottom: 5px;
+}
+
 @media screen and (max-width: 960px){
     .skill {
         background-color: white;
         text-align: start;
         display: flex;
         flex-direction: column;
+        margin-top: 150px;
     }
 
     .skill .skill-item{
@@ -113,7 +122,7 @@
     .skill .skill-item .skill-card {
         margin-right: 0;
         width: 100%;
-        box-shadow: 2px 2px 15px rgba(128, 128, 128, 0.301);
+        box-shadow: 2px 2px 25px rgba(128, 128, 128, 0.192);
     }
 
     .skill .skill-item .skill-card img{
@@ -122,13 +131,19 @@
     }
 
     .meter {  
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
         margin-bottom: 25px;
+        height: 30px;
     }
 
     .skill .skill-item .skill-card {
         margin-bottom: 20px;
+    }
+
+    .skill .skill-item .skill-card .progress h4{
+        font-size: 1.4rem;
+        margin-bottom: 10px;
     }
 }
 

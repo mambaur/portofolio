@@ -31,6 +31,11 @@ nav {
     padding: 0 15%;
 }
 
+.nav-item a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .navbar-logo {
     justify-self: start;
     cursor: pointer;
@@ -131,7 +136,7 @@ nav {
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(10%, 50%);
+        transform: translate(12%, 50%);
     }
 
     .menu-icon {
@@ -139,7 +144,7 @@ nav {
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(-100%, 60%);
+        transform: translate(-65%, 50%);
         font-size: 1.8rem;
         cursor: pointer;
     }
@@ -159,7 +164,7 @@ nav {
     }
 
     .nav-links-mobile:hover{
-        background: red;
+        background: linear-gradient(to right,#24C6DC, #514A9D);
         color: white;
         transition: 250ms;
     }

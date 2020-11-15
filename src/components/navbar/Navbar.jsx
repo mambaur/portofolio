@@ -46,7 +46,7 @@ class Navbar extends Component{
             <Fragment>
                 <nav>
                     <div className="nav-item">
-                        <h1 className="navbar-logo" onClick={()=>this.scrolltoTop()}>Bauroziq</h1>
+                        <a href=""><h1 className="navbar-logo">Bauroziq</h1></a>
                         <div className="menu-icon" onClick={this.handleClick}>
                             <i className={this.state.isClicked ? "fas fa-times" : "fas fa-bars"}></i>
                         </div>

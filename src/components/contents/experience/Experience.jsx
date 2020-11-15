@@ -29,7 +29,7 @@ class Experience extends Component {
                         <div className="card-item">
                             <img src="https://static.wixstatic.com/media/142d5c_1e17af77ac664071a29a191ea9f54883~mv2.png/v1/fill/w_73,h_72,al_c,q_85,usm_0.66_1.00_0.01/142d5c_1e17af77ac664071a29a191ea9f54883~mv2.webp" alt=""/>
                             <h3>Pyxis Ultimate Solution</h3>
-                            <p>February - March 2020</p>
+                            <p>February - May 2020</p>
                             <p>Internship Program</p>
                         </div>
                         <div className="card-item">

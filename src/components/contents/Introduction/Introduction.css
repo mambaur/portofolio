@@ -17,7 +17,7 @@
 
 .introduction .introduction-text p{
     margin-top: 20px;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     color: #000000;
 }
 
@@ -27,7 +27,7 @@
     padding: 7px 13px;
     background: linear-gradient(to right,#24C6DC, #514A9D);
     color: #ffffff;
-    font-weight: 500;
+    font-weight: bold;
     box-sizing: border-box;
 }
 
@@ -49,5 +49,16 @@
 
     .introduction img {
         width: 300px;
+    }
+
+    .introduction .introduction-text p{
+        font-size: 1.0rem;
+        color: #000000b4;
+    }
+
+    .introduction .introduction-text .btn-download-cv{
+        margin-top: 20px;
+        padding: 10px 16px;
+        font-weight: 600;
     }
 }

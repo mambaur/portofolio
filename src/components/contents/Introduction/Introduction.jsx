@@ -12,7 +12,7 @@ class Introduction extends Component {
                         <h1>Let Me Introduce</h1>
                         <h1> Myself</h1>
                         <p>
-                            Hi, i am Mambaur Roziq Alwi, i was born in Jember, Indonesia. I have good communicative, tolerant, discipline, and target oriented. I am very interested in the development of technology, especially in programming.
+                            My name is Mambaur Roziq Alwi, i was born in Jember, Indonesia. I have good communicative, tolerant, discipline, and target oriented. I am very interested in the development of technology, especially in programming.
                             <br/><br/>
                             I like to learn new things related to the latest technology in the world. Besides of that, I can work with the team better. 
                         </p>
