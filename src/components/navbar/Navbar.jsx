@@ -57,10 +57,10 @@ class Navbar extends Component{
                                 <li><a className="nav-links" href="https://caraguna.com" target="_blank">Blog</a></li>
                                 <li><a className="nav-links" onClick={()=>this.handleScrollElement('skill')}>Skill</a></li>
                                 <li><a className="nav-links" onClick={()=>this.handleScrollElement('introduction')}>About</a></li>
-                                <li><a className="nav-links-mobile" target="_blank" href="https://bit.ly/bauroziq-resume">Download CV</a></li>
+                                <li><a className="nav-links-mobile" target="_blank" href="https://drive.google.com/u/6/uc?id=1UQBrrEG9M55TxMcdxn1WlpLYpTkm8WBt&export=download">Download CV</a></li>
                             </ul>
 
-                            <a href="https://bit.ly/bauroziq-resume" target="_blank"><button className="btn"><i class="fas fa-download"></i> Download CV</button></a>
+                            <a href="https://drive.google.com/u/6/uc?id=1UQBrrEG9M55TxMcdxn1WlpLYpTkm8WBt&export=download" target="_blank"><button className="btn"><i class="fas fa-download"></i> Download CV</button></a>
                         </div>
                     </div>
                 </nav>
