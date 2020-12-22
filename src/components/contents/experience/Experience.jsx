@@ -21,9 +21,9 @@ class Experience extends Component {
 
                         <div className="card-item">
                             <img src="https://kadowisudaku.com/wp-content/uploads/2020/04/Politeknik-Negeri-Jember.png" alt=""/>
-                            <h3>Politeknik Negeri Jember</h3>
-                            <p>2016-2020 (bachelor degrees)</p>
-                            <p>Teknik Informatika</p>
+                            <h3>State Polytechnic Jember</h3>
+                            <p>2016-2020 (Bachelor degrees)</p>
+                            <p>Informatics Engineering</p>
                         </div>
 
                         <div className="card-item">

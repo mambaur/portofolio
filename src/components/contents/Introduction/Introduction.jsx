@@ -16,7 +16,7 @@ class Introduction extends Component {
                             <br/><br/>
                             I like to learn new things related to the latest technology in the world. Besides of that, I can work with the team better. 
                         </p>
-                        <a href="https://drive.google.com/u/6/uc?id=1UQBrrEG9M55TxMcdxn1WlpLYpTkm8WBt&export=download" target="_blank"><div className="btn-download-cv">Download CV</div></a>
+                        <a href="https://drive.google.com/u/2/uc?id=1S_3747GzM_tBwl6ERWXDhtPjQ_DHQx-d&export=download" target="_blank"><div className="btn-download-cv">Download CV</div></a>
                     </div>
                 </div>
             </Fragment>
