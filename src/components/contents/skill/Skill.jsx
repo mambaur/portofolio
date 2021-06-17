@@ -1,6 +1,18 @@
 import React, {Component, Fragment} from 'react';
 import './Skill.css';
+
+// assets image
 import phplogo from '../../../assets/logo/logo-php.png';
+import dart from '../../../assets/technology/dart.png';
+import flutter from '../../../assets/technology/flutter.png';
+import java from '../../../assets/technology/java.png';
+import javascript from '../../../assets/technology/javascript.png';
+import laravel from '../../../assets/technology/laravel.png';
+import mysql from '../../../assets/technology/mysql.png';
+import php from '../../../assets/technology/php.png';
+import react from '../../../assets/technology/react.png';
+import wordpress from '../../../assets/technology/wordpress.png';
+import android_studio from '../../../assets/technology/android-studio.png';
 
 class Skill extends Component{
     render(){
@@ -11,7 +23,7 @@ class Skill extends Component{
                     <p>My skill performance in technology</p>
                     <div className="skill-item">
                         <div className="skill-card">
-                            <img src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" alt=""/>
+                            <img src={flutter} alt=""/>
                             <div className="progress">
                                 <h4>Flutter 90%</h4>
                                 <div className="meter">
@@ -20,7 +32,7 @@ class Skill extends Component{
                             </div>
                         </div>
                         <div className="skill-card">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" alt=""/>
+                            <img src={laravel} alt=""/>
                             <div className="progress">
                                 <h4>Laravel 85%</h4>
                                 <div className="meter">
@@ -29,7 +41,7 @@ class Skill extends Component{
                             </div>
                         </div>
                         <div className="skill-card">
-                            <img src="https://cdn.auth0.com/blog/react-js/react.png" alt=""/>
+                            <img src={react} alt=""/>
                             <div className="progress">
                                 <h4>ReactJS 80%</h4>
                                 <div className="meter">
@@ -38,7 +50,7 @@ class Skill extends Component{
                             </div>
                         </div>
                         <div className="skill-card">
-                            <img src="https://2.bp.blogspot.com/-tzm1twY_ENM/XlCRuI0ZkRI/AAAAAAAAOso/BmNOUANXWxwc5vwslNw3WpjrDlgs9PuwQCLcBGAsYHQ/s1600/pasted%2Bimage%2B0.png" alt=""/>
+                            <img src={android_studio} alt=""/>
                             <div className="progress">
                                 <h4>Android 95%</h4>
                                 <div className="meter">
@@ -47,7 +59,7 @@ class Skill extends Component{
                             </div>
                         </div>
                         <div className="skill-card">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png" alt=""/>
+                            <img src={dart} alt=""/>
                             <div className="progress">
                                 <h4>Dart 90%</h4>
                                 <div className="meter">
@@ -65,7 +77,7 @@ class Skill extends Component{
                             </div>
                         </div>
                         <div className="skill-card">
-                            <img src="https://pngimg.com/uploads/mysql/mysql_PNG23.png" alt=""/>
+                            <img src={mysql} alt=""/>
                             <div className="progress">
                                 <h4>Mysql 95%</h4>
                                 <div className="meter">
@@ -74,7 +86,7 @@ class Skill extends Component{
                             </div>
                         </div>
                         <div className="skill-card">
-                            <img src="https://sayapusing.com/wp-content/uploads/2019/04/javascript-icon-png-23.png" alt=""/>
+                            <img src={javascript} alt=""/>
                             <div className="progress">
                                 <h4>Javascript 85%</h4>
                                 <div className="meter">
@@ -83,7 +95,7 @@ class Skill extends Component{
                             </div>
                         </div>
                         <div className="skill-card">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png" alt=""/>
+                            <img src={wordpress} alt=""/>
                             <div className="progress">
                                 <h4>Wordpress 95%</h4>
                                 <div className="meter">
@@ -92,7 +104,7 @@ class Skill extends Component{
                             </div>
                         </div>
                         <div className="skill-card">
-                            <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png" alt=""/>
+                            <img src={java} alt=""/>
                             <div className="progress">
                                 <h4>Java 85%</h4>
                                 <div className="meter">

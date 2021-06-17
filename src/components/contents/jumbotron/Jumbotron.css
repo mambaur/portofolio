@@ -1,8 +1,12 @@
 .jumbotron {
     display: flex;
     justify-content: space-between;
-    height: 25rem;
+    height: 70vh;
     align-items: center;
+}
+
+.qrcode{
+    width:100px;
 }
 
 .title{

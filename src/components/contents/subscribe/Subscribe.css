@@ -9,6 +9,8 @@
     text-align: center;
     scroll-margin-top: 150px;
     box-sizing: border-box;
+    padding-left:35px;
+    padding-right:35px;
 }
 
 .subscribe .subscribe-title{
