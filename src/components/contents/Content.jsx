@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Jumbotron from './jumbotron/Jumbotron';
+import Navbar from '../navbar/Navbar';
 import Introduction from './Introduction/Introduction';
 import Experience from './experience/Experience';
 import Subscribe from './subscribe/Subscribe';
@@ -12,6 +13,7 @@ class Content extends Component {
     render(){
         return (
             <Fragment>
+                <Navbar />
                 <div className="content">
                     <Jumbotron />
                     <Introduction />

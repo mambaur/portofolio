@@ -1,4 +1,5 @@
 import React, {Component, Fragment} from 'react';
+import {Link} from "react-router-dom";
 import './Skill.css';
 
 // assets image
@@ -22,7 +23,7 @@ class Skill extends Component{
                     <h1>My Skill</h1>
                     <p>My skill performance in technology</p>
                     <div className="skill-item">
-                        <div className="skill-card">
+                        <Link to="/skill/flutter" className="skill-card">
                             <img src={flutter} alt=""/>
                             <div className="progress">
                                 <h4>Flutter 90%</h4>
@@ -30,8 +31,8 @@ class Skill extends Component{
                                     <span className="flutter"></span>
                                 </div>
                             </div>
-                        </div>
-                        <div className="skill-card">
+                        </Link>
+                        <Link to="/skill/laravel" className="skill-card">
                             <img src={laravel} alt=""/>
                             <div className="progress">
                                 <h4>Laravel 85%</h4>
@@ -39,8 +40,8 @@ class Skill extends Component{
                                     <span className="laravel"></span>
                                 </div>
                             </div>
-                        </div>
-                        <div className="skill-card">
+                        </Link>
+                        <Link to="/skill/react" className="skill-card">
                             <img src={react} alt=""/>
                             <div className="progress">
                                 <h4>ReactJS 80%</h4>
@@ -48,8 +49,8 @@ class Skill extends Component{
                                     <span className="react"></span>
                                 </div>
                             </div>
-                        </div>
-                        <div className="skill-card">
+                        </Link>
+                        <Link to="/skill/android-studio" className="skill-card">
                             <img src={android_studio} alt=""/>
                             <div className="progress">
                                 <h4>Android 95%</h4>
@@ -57,8 +58,8 @@ class Skill extends Component{
                                     <span className="android"></span>
                                 </div>
                             </div>
-                        </div>
-                        <div className="skill-card">
+                        </Link>
+                        <Link to="/skill/dart" className="skill-card">
                             <img src={dart} alt=""/>
                             <div className="progress">
                                 <h4>Dart 90%</h4>
@@ -66,8 +67,8 @@ class Skill extends Component{
                                     <span className="dart"></span>
                                 </div>
                             </div>
-                        </div>
-                        <div className="skill-card">
+                        </Link>
+                        <Link to="/skill/php" className="skill-card">
                             <img src={phplogo} alt=""/>
                             <div className="progress">
                                 <h4>PHP 95%</h4>
@@ -75,8 +76,8 @@ class Skill extends Component{
                                     <span className="php"></span>
                                 </div>
                             </div>
-                        </div>
-                        <div className="skill-card">
+                        </Link>
+                        <Link to="/skill/mysql" className="skill-card">
                             <img src={mysql} alt=""/>
                             <div className="progress">
                                 <h4>Mysql 95%</h4>
@@ -84,8 +85,8 @@ class Skill extends Component{
                                     <span className="mysql"></span>
                                 </div>
                             </div>
-                        </div>
-                        <div className="skill-card">
+                        </Link>
+                        <Link to="/skill/javascript" className="skill-card">
                             <img src={javascript} alt=""/>
                             <div className="progress">
                                 <h4>Javascript 85%</h4>
@@ -93,8 +94,8 @@ class Skill extends Component{
                                     <span className="javascript"></span>
                                 </div>
                             </div>
-                        </div>
-                        <div className="skill-card">
+                        </Link>
+                        <Link to="/skill/wordpress" className="skill-card">
                             <img src={wordpress} alt=""/>
                             <div className="progress">
                                 <h4>Wordpress 95%</h4>
@@ -102,8 +103,8 @@ class Skill extends Component{
                                     <span className="wordpress"></span>
                                 </div>
                             </div>
-                        </div>
-                        <div className="skill-card">
+                        </Link>
+                        <Link to="/skill/java" className="skill-card">
                             <img src={java} alt=""/>
                             <div className="progress">
                                 <h4>Java 85%</h4>
@@ -111,7 +112,7 @@ class Skill extends Component{
                                     <span className="java"></span>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </Fragment>

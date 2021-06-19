@@ -25,6 +25,8 @@
     border-radius: 10px;
     box-shadow: 3px 5px 10px #00000025;
     margin-bottom: 50px;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
 }
 
 .skill .skill-item .skill-card:hover{
