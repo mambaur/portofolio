@@ -22,6 +22,7 @@ import Footer from './components/contents/footer/Footer';
 import Skill from './components/contents/skill/Skill';
 import SkillDetail from './components/contents/skill/SkillDetail';
 import Portofolio from './components/contents/portofolio/Portofolio';
+import PortofolioDetail from './components/contents/portofolio/PortofolioDetail';
 
 class App extends Component{
 
@@ -30,12 +31,19 @@ class App extends Component{
       <Router>
         <Fragment>
           <Switch>
+
             <Route path="/skill/:title">
               <SkillDetail />
             </Route>
+            
+            <Route path="/portofolio/:product">
+              <PortofolioDetail />
+            </Route>
+
             <Route path="/" exact>
               <Content />
             </Route>
+
           </Switch>
         </Fragment>
       </Router>

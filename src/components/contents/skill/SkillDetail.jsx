@@ -1,24 +1,24 @@
-import React, {Component, Fragment} from 'react';
-import { Container, Button, Row, Col } from 'react-bootstrap';
-import {Link, useParams} from "react-router-dom";
-import { withRouter } from "react-router";
-import Footer from '../footer/Footer';
+import React, {Component, Fragment} from 'react'
+import { Container, Button, Row, Col } from 'react-bootstrap'
+import {Link, useParams} from "react-router-dom"
+import { withRouter } from "react-router"
+import Footer from '../footer/Footer'
 
-import SkillData from './SkillData';
+import SkillData from './SkillData'
 
-import '../Content.css';
-import './SkillDetail.css';
+import '../Content.css'
+import './SkillDetail.css'
 
 class SkillDetail extends Component {
     state = {
         menu : this.props.match.params.title
     }
 
-    componentDidMount = () => window.scrollTo(0, 0);
+    componentDidMount = () => window.scrollTo(0, 0)
 
     componentDidUpdate = prevProps => {
-        if (this.props.location !== prevProps.location) window.scrollTo(0, 0);
-    };
+        if (this.props.location !== prevProps.location) window.scrollTo(0, 0)
+    }
 
     render() {
         let data = SkillData.find( record => record.key === this.state.menu)
@@ -28,7 +28,7 @@ class SkillDetail extends Component {
                     <div className="back">
                         <Link className="back-link" to="/"><i class="fas fa-long-arrow-alt-left"></i></Link>
                     </div>
-                    {data ? <ContentSkill tech={this.props.match.params.title} /> : <div></div>}
+                    {data ? <ContentSkill tech={this.props.match.params.title} /> : <SkillNotFound />}
                 </Container>
                 <Footer />
             </Fragment>
@@ -78,4 +78,19 @@ const ContentSkill = (props)=>{
     )
 }
 
-export default withRouter(SkillDetail);
+const SkillNotFound = (props)=>{
+    return (
+        <div className="skill-content">
+            <div className="tech-desc">
+                <div className="title">
+                    Ups, sorry skill not found!
+                </div>
+                <p>
+                    You entered the wrong url address.
+                </p>
+            </div>
+        </div>
+    )
+}
+
+export default withRouter(SkillDetail)

@@ -1,23 +1,24 @@
-import React, {Component, Fragment} from 'react';
-import './Portofolio.css';
+import React, {Component, Fragment} from 'react'
+import {Link} from "react-router-dom";
+import './Portofolio.css'
 
 // Image assets mobile
-import alquran from '../../../assets/mobile/alquran-app.jpg';
-import dompet from '../../../assets/mobile/dompet-saku.jpg';
-import recipe from '../../../assets/mobile/recipe-app.jpg';
-import sipakar from '../../../assets/mobile/sipakar-app.jpg';
+import alquran from '../../../assets/mobile/alquran-app.jpg'
+import dompet from '../../../assets/mobile/dompet-saku.jpg'
+import recipe from '../../../assets/mobile/recipe-app.jpg'
+import sipakar from '../../../assets/mobile/sipakar-app.jpg'
 
 // Image assets website
-import foodshop from '../../../assets/website/foodshop.png';
+import foodshop from '../../../assets/website/foodshop.png'
 import portofolio from '../../../assets/website/portofolio.jpg'
-import sipakarweb from '../../../assets/website/sipakar-web.jpg';
+import sipakarweb from '../../../assets/website/sipakar-web.jpg'
 
 // Image assets logo design
-import amplify from '../../../assets/logo-design/amplif-logo.png';
-import authent from '../../../assets/logo-design/authent-logo.png';
-import dog from '../../../assets/logo-design/dog-logo.png';
-import option from '../../../assets/logo-design/option-lance.png';
-import verrelli from '../../../assets/logo-design/verrelli-logo.png';
+import amplify from '../../../assets/logo-design/amplif-logo.png'
+import authent from '../../../assets/logo-design/authent-logo.png'
+import dog from '../../../assets/logo-design/dog-logo.png'
+import option from '../../../assets/logo-design/option-lance.png'
+import verrelli from '../../../assets/logo-design/verrelli-logo.png'
 
 class Portofolio extends Component{
     state = {
@@ -54,34 +55,46 @@ class Portofolio extends Component{
 const MobileGalery = ()=>{
     return (
         <div className="galery">
-            <div className="galery-item">
-                <a href="https://play.google.com/store/apps/details?id=com.caraguna.alquran_app" target="_blank"><img src={alquran} alt=""/></a>
-                <div className="galery-title">
-                    <h4>Al Quran</h4>
-                    <p>Al Quran Online Indonesia</p>
+            <Link to="/portofolio/alquran-online" className="portofolio-card">
+                <div className="galery-item">
+                    <a href="https://play.google.com/store/apps/details?id=com.caraguna.alquran_app" target="_blank"><img src={alquran} alt=""/></a>
+                    <div className="galery-title">
+                        <h4>Al Quran</h4>
+                        <p>Al Quran Online Indonesia</p>
+                    </div>
                 </div>
-            </div>
-            <div className="galery-item">
-                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.dompet_apps"><img src={dompet} alt=""/></a>
-                <div className="galery-title">
-                    <h4>Dompet Saku</h4>
-                    <p>Money management application</p>
+            </Link>
+            
+            <Link to="/portofolio/dompet-saku" className="portofolio-card">
+                <div className="galery-item">
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.dompet_apps"><img src={dompet} alt=""/></a>
+                    <div className="galery-title">
+                        <h4>Dompet Saku</h4>
+                        <p>Money management application</p>
+                    </div>
                 </div>
-            </div>
-            <div className="galery-item">
-                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.recipe_apps"><img src={recipe} alt=""/></a>
-                <div className="galery-title">
-                    <h4>Recipe Application</h4>
-                    <p>Indonesia food recipe</p>
+            </Link>
+            
+            <Link to="/portofolio/recipe-application" className="portofolio-card">
+                <div className="galery-item">
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.recipe_apps"><img src={recipe} alt=""/></a>
+                    <div className="galery-title">
+                        <h4>Recipe Application</h4>
+                        <p>Indonesia food recipe</p>
+                    </div>
                 </div>
-            </div>
-            <div className="galery-item">
-                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.Devb.sipakar_apps"><img src={sipakar} alt=""/></a>
-                <div className="galery-title">
-                    <h4>Sipakar Tembakau</h4>
-                    <p>Identification of tobacco plant disease</p>
+            </Link>
+
+            
+            <Link to="/portofolio/sipakar-tembakau" className="portofolio-card">
+                <div className="galery-item">
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.Devb.sipakar_apps"><img src={sipakar} alt=""/></a>
+                    <div className="galery-title">
+                        <h4>Sipakar Tembakau</h4>
+                        <p>Identification of tobacco plant disease</p>
+                    </div>
                 </div>
-            </div>
+            </Link>
         </div>
     )
 }
