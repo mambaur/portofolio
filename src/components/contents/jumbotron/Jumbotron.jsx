@@ -11,7 +11,6 @@ class Jumbotron extends Component {
             <Fragment>
                 <div id="jumbotron" className="jumbotron">
                     <div className="row">
-                        
                         <img class="qrcode" src={qrcode} alt="" />
                         <h1 className="title">
                             Hi, I am Bauroziq

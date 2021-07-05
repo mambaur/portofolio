@@ -65,6 +65,7 @@
     .jumbotron {
         width: 100%;
         display: flex;
+        margin-top: 15vh;
         flex-direction: column-reverse;
         justify-content: center;
         text-align: center;

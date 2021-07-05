@@ -1,0 +1,46 @@
+.content .back{
+    margin-bottom: 45px;
+}
+
+.porto-container .container{
+    padding: 30px;
+    background-color: rgb(238, 238, 238);
+    color: rgb(17, 17, 17);
+    margin-bottom: 15px;
+}
+
+.porto-container .container .title{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.porto-container .container span{
+    font-size: 15px;
+}
+
+.porto-container .container .description{
+    margin-top: 30px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.button .button-see{
+    padding: 5px 10px;
+    border: 1px solid #5050A0;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+    color: #5050A0;
+}
+
+.button .button-see:hover{
+    border: none;
+    color: white;
+    background-color: #5050A0;
+    transition: all 0.5s ease;
+}
