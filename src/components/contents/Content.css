@@ -1,5 +1,10 @@
-.content {
+.youtube {
     margin-top: 110px;
+    /* padding: 0 3%; */
+}
+
+.content {
+    margin-top: 30px;
     padding: 0 15%;
 }
 

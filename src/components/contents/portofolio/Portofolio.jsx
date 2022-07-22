@@ -6,12 +6,18 @@ import './Portofolio.css'
 import alquran from '../../../assets/mobile/alquran-app.jpg'
 import dompet from '../../../assets/mobile/dompet-saku.jpg'
 import recipe from '../../../assets/mobile/recipe-app.jpg'
-import sipakar from '../../../assets/mobile/sipakar-app.jpg'
+import kamusInvestasi from '../../../assets/mobile/kamus-investasi.jpg'
+import ongkirku from '../../../assets/mobile/ongkirku.jpg'
+import signature from '../../../assets/mobile/signature.jpg'
+import phonespec from '../../../assets/mobile/phonespec.jpg'
 
 // Image assets website
+import ukmlumut from '../../../assets/website/ukmlumut.jpg'
 import foodshop from '../../../assets/website/foodshop.png'
 import portofolio from '../../../assets/website/portofolio.jpg'
 import sipakarweb from '../../../assets/website/sipakar-web.jpg'
+import caraguna from '../../../assets/website/caraguna.jpg'
+import inventory from '../../../assets/website/inventory.jpg'
 
 // Image assets logo design
 import amplify from '../../../assets/logo-design/amplif-logo.png'
@@ -34,8 +40,8 @@ class Portofolio extends Component{
             <Fragment>
                 <div id="portofolio" className="portofolio">
                     <div className="portofolio-title">
-                        <h1>Recently Done Project</h1>
-                        <p>Quality project</p>
+                        <h1>Recently Done Project 🏆</h1>
+                        <p>My Quality Project</p>
                     </div>
                     <div className="portofolio-content">
                         <div className="tab-menu">
@@ -80,18 +86,47 @@ const MobileGalery = ()=>{
                     <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.recipe_apps"><img src={recipe} alt=""/></a>
                     <div className="galery-title">
                         <h4>Recipe Application</h4>
-                        <p>Indonesia food recipe</p>
+                        <p>Indonesian food recipe</p>
                     </div>
                 </div>
             </Link>
 
-            
-            <Link to="/portofolio/sipakar-tembakau" className="portofolio-card">
+            <Link to="/portofolio/kamus-investasi" className="portofolio-card">
                 <div className="galery-item">
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.Devb.sipakar_apps"><img src={sipakar} alt=""/></a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.kamus.investasi"><img src={kamusInvestasi} alt=""/></a>
                     <div className="galery-title">
-                        <h4>Sipakar Tembakau</h4>
-                        <p>Identification of tobacco plant disease</p>
+                        <h4>Kamus Investasi</h4>
+                        <p>Dictionary for Investment</p>
+                    </div>
+                </div>
+            </Link>
+
+            <Link to="/portofolio/ongkirku" className="portofolio-card">
+                <div className="galery-item">
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.ongkirku"><img src={ongkirku} alt=""/></a>
+                    <div className="galery-title">
+                        <h4>Ongkirku</h4>
+                        <p>Check postage and receipt</p>
+                    </div>
+                </div>
+            </Link>
+
+            <Link to="/portofolio/signature" className="portofolio-card">
+                <div className="galery-item">
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.signature"><img src={signature} alt=""/></a>
+                    <div className="galery-title">
+                        <h4>Signature</h4>
+                        <p>Simple Signature Maker</p>
+                    </div>
+                </div>
+            </Link>
+
+            <Link to="/portofolio/phonespec" className="portofolio-card">
+                <div className="galery-item">
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.caraguna.phonespec"><img src={phonespec} alt=""/></a>
+                    <div className="galery-title">
+                        <h4>Phonespec</h4>
+                        <p>Phone Specifications</p>
                     </div>
                 </div>
             </Link>
@@ -102,6 +137,27 @@ const MobileGalery = ()=>{
 const WebsiteGalery = ()=>{
     return(
         <div className="galery">
+            <div className="galery-item">
+                <a target="_blank" href="https://caraguna.com"><img src={caraguna} alt="Caraguna"/></a>
+                <div className="galery-title">
+                    <h4>Caraguna Blog</h4>
+                    <p>Article About Technology</p>
+                </div>
+            </div>
+            <div className="galery-item">
+                <a target="_blank" href="https://ukmlumut.com"><img src={ukmlumut} alt="UKM LUMUT"/></a>
+                <div className="galery-title">
+                    <h4>UKM LUMUT</h4>
+                    <p>Lukis Musik Tari Organization</p>
+                </div>
+            </div>
+            <div className="galery-item">
+                <a target="_blank" href="https://inventory.satriabahana.co.id/"><img src={inventory} alt="Inventory"/></a>
+                <div className="galery-title">
+                    <h4>Inventory MSF</h4>
+                    <p>Inventory, Connect With Your Telegram</p>
+                </div>
+            </div>
             <div className="galery-item">
                 <a target="_blank" href="https://shop.caraguna.com"><img src={foodshop} alt=""/></a>
                 <div className="galery-title">

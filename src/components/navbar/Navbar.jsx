@@ -1,6 +1,9 @@
 import React, {Component, Fragment} from 'react';
 import './Navbar.css'
 
+// Image
+import favicon from '../../assets/logo/favicon.png';
+
 class Navbar extends Component{
     state = {
         isClicked : false
@@ -46,7 +49,10 @@ class Navbar extends Component{
             <Fragment>
                 <nav>
                     <div className="nav-item">
-                        <a href=""><h1 className="navbar-logo">Bauroziq</h1></a>
+                        <a href="">
+                            
+                            <h1 className="navbar-logo"><img src={favicon} alt="" width="30"/> Bauroziq</h1>
+                        </a>
                         <div className="menu-icon" onClick={this.handleClick}>
                             <i className={this.state.isClicked ? "fas fa-times" : "fas fa-bars"}></i>
                         </div>

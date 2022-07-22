@@ -3,6 +3,7 @@ import { Container, Button, Row, Col } from 'react-bootstrap'
 import {Link, useParams} from "react-router-dom"
 import { withRouter } from "react-router"
 import Footer from '../footer/Footer'
+import Subscribe from '../subscribe/Subscribe'
 
 import SkillData from './SkillData'
 
@@ -12,6 +13,10 @@ import './SkillDetail.css'
 class SkillDetail extends Component {
     state = {
         menu : this.props.match.params.title
+    }
+
+    handleBack = () => {
+        this.props.history.goBack()
     }
 
     componentDidMount = () => window.scrollTo(0, 0)
@@ -26,11 +31,13 @@ class SkillDetail extends Component {
             <Fragment>
                 <Container className="content">
                     <div className="back">
-                        <Link className="back-link" to="/"><i class="fas fa-long-arrow-alt-left"></i></Link>
+                        <Link className="back-link" onClick={this.handleBack}><i class="fas fa-long-arrow-alt-left"></i></Link>
                     </div>
                     {data ? <ContentSkill tech={this.props.match.params.title} /> : <SkillNotFound />}
+                    
+                    <Subscribe />
+                    <Footer />
                 </Container>
-                <Footer />
             </Fragment>
         )
     }

@@ -4,9 +4,10 @@
 
 .porto-container .container{
     padding: 30px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(238, 238, 238, 0.342);
     color: rgb(17, 17, 17);
     margin-bottom: 15px;
+    border-radius: 15px;
 }
 
 .porto-container .container .title{
@@ -17,6 +18,15 @@
 
 .porto-container .container span{
     font-size: 15px;
+}
+
+.porto-container .container .subtitle{
+    margin-bottom: 20px;
+    color: grey;
+}
+.porto-container .container img{
+    margin-top: 25px;
+    color: grey;
 }
 
 .porto-container .container .description{

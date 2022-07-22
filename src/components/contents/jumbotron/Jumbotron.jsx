@@ -13,7 +13,7 @@ class Jumbotron extends Component {
                     <div className="row">
                         <img class="qrcode" src={qrcode} alt="" />
                         <h1 className="title">
-                            Hi, I am Bauroziq
+                            Hi, I am Bauroziq 👾
                         </h1>
                         <div className="sub-title">
                             <h3>Software Developer</h3>

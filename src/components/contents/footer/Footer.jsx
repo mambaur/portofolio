@@ -30,7 +30,7 @@ class Footer extends Component {
                             <a href="https://play.google.com/store/apps/details?id=com.caraguna.dompet_apps" target="_blank"><p>Dompet Saku</p></a>
                             <a href="https://play.google.com/store/apps/details?id=com.caraguna.alquran_app" target="_blank"><p>Al Quran Online</p></a>
                             <a href="https://play.google.com/store/apps/details?id=com.caraguna.recipe_apps" target="_blank"><p>Resep Masakan</p></a>
-                            <a href="https://play.google.com/store/apps/details?id=com.Devb.sipakar_apps" target="_blank"><p>Sistem Pakar</p></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.caraguna.ongkirku" target="_blank"><p>Ongkirku</p></a>
                         </div>
                         <div className="sub-footer-item">
                             <h3>About Me</h3>
@@ -46,13 +46,13 @@ class Footer extends Component {
                             <a href="" target="_blank"><p>Give feedback</p></a>
                         </div>
                     </div>
-                    <p>Designed & developed with <i class="fas fa-heart"></i> by <a href="">Bauroziq</a> </p>
+                    <p>Designed & developed with <i class="fas fa-heart"></i> by <a href=""><strong>Bauroziq</strong></a> </p>
                     <div className="row">
                         <a className="footer-icon-link" href="https://github.com/mambaur" target="_blank"><i class="fab fa-github"></i></a>
                         <a className="footer-icon-link" href="https://www.linkedin.com/in/mambaur-roziq-605962167/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a className="footer-icon-link" href="https://www.instagram.com/bauroziq/" target="_blank"><i class="fab fa-instagram-square"></i></a>
                         <a className="footer-icon-link" href="https://web.facebook.com/alwi.roziq/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a className="footer-icon-link" href="https://www.youtube.com/channel/UCnXqsH_El2uOZDM6gEpRJmA" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a className="footer-icon-link" href="https://www.youtube.com/bauroziq" target="_blank"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </Fragment>

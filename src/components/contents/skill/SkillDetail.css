@@ -16,9 +16,11 @@
     margin-top: 50px;
     display: block;
     width:200px;
+    padding: 15px;
     margin-bottom:15px;
-    background-color: rgb(219, 217, 217);
+    background-color: rgba(219, 217, 217, 0.219);
     align-items: center;
+    border-radius: 15px;
 }
 
 .text-bold{
@@ -26,6 +28,7 @@
 }
 
 .detail-tech{
+    text-align: right;
     font-size: 12px;
     display: flex;
     justify-content: space-between;

@@ -1,17 +1,24 @@
 import React, { Component, Fragment } from 'react'
-import {Link, useParams} from "react-router-dom"
+import {Link, useParams } from "react-router-dom"
 import { withRouter } from "react-router"
+import Subscribe from '../subscribe/Subscribe'
 import Footer from '../footer/Footer'
 import { Container, Button, Row, Col } from 'react-bootstrap'
 import './PortofolioDetail.css'
 
 import '../Content.css'
 
+import PortofolioData from './PortofolioData'
+
 class PortofolioDetail extends Component{
     state = {
         product : this.props.match.params.product
     }
 
+    handleBack = () => {
+        this.props.history.goBack()
+    }
+    
     componentDidMount = () => window.scrollTo(0, 0)
 
     componentDidUpdate = prevProps => {
@@ -19,36 +26,62 @@ class PortofolioDetail extends Component{
     }
 
     render(){
+        let data = PortofolioData.find( record => record.key === this.state.product)
+
         return(
             <Fragment>
                 <Container className="content">
                     <div className="back">
-                        <Link className="back-link" to="/"><i class="fas fa-long-arrow-alt-left"></i></Link>
+                        <Link className="back-link" onClick={this.handleBack}><i class="fas fa-long-arrow-alt-left"></i></Link>
                     </div>
-                    {this.state.product ? <PortofolioContent productName={this.state.product} />: <div>Page not found</div>}
+                    
+                    {data ? <PortofolioContent product={this.state.product} /> : <PortofolioNotFound />}
+                    
+                    <Subscribe />
+                    <Footer />
                 </Container>
-                <Footer />
             </Fragment>
         )
     }
 }
 
 const PortofolioContent = (props)=>{
+    
+    let data = PortofolioData.find( record => record.key === props.product)
     return (
         <div className="porto-container">
             <div className="container">
-                <div className="title">{props.productName}</div>
-                <span className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quidem.</span>
+                <div className="title">{data.title}</div>
+                <span className="subtitle">{data.subtitle}</span>
+
+                <div className="image">
+                    <img src={data.image} width="50%" alt="" />
+                </div>
 
                 <div className="description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure expedita nam optio deleniti, voluptate facilis eum vero libero asperiores voluptatibus vitae ducimus rerum? Adipisci quis esse voluptate architecto minima quidem earum. Perferendis earum ipsam quaerat veniam ipsa et cum, reprehenderit expedita suscipit ab dolorum laboriosam aliquam sunt accusamus in harum?
+                    {data.content.map((value, i) => {                   
+                        return (<p>{value}</p>) 
+                    })}
                 </div>
             </div>
-            {/* <img src="http://localhost:3000/static/media/alquran-app.ca29cbd5.jpg" alt="" /> */}
 
             <div className="button">
-                <a className="button-see" href="">See website</a>
-                <a className="button-see" href="">Download on Playstore</a>
+                <a className="button-see" href={data.link} target="_blank">See More About Apps</a>
+            </div>
+        </div>
+    )
+}
+
+const PortofolioNotFound = (props)=>{
+    return (
+        <div className="porto-container">
+            <div className="container">
+                <div className="title">
+                    Ups, sorry portofolio not found!
+                </div>
+                <p>
+                    You entered the wrong url address.
+                </p>
             </div>
         </div>
     )

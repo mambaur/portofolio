@@ -11,6 +11,7 @@
     box-sizing: border-box;
     padding-left:35px;
     padding-right:35px;
+    border-radius: 15px;
 }
 
 .subscribe .subscribe-title{

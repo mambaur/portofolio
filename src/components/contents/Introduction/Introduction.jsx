@@ -14,9 +14,9 @@ class Introduction extends Component {
 
                     <div className="introduction-text">
                         <h1>Let Me Introduce</h1>
-                        <h1> Myself</h1>
+                        <h1> Myself 🤗</h1>
                         <p>
-                            Hai guys, I am Mambaur Roziq Alwi, usually called Bauroziq. I was born in Jember, Indonesia. I am very interested in the development of technology, especially in programming.
+                            Hai guys, I am Mambaur Roziq Alwi, usually called <strong>Bauroziq</strong>. I was born in Jember, Indonesia. I am very interested in the development of technology, especially in programming.
                             <br/><br/>
                             I like to learn new things related to the latest technology in the world, such as frameworks, cloud computing, ai, and machine learning.
                         </p>

@@ -35,6 +35,14 @@ nav {
     text-decoration: none;
     color: #000000;
 }
+.nav-item a h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item a h1 img{
+    margin-right: 10px;
+}
 
 .navbar-logo {
     justify-self: start;
@@ -63,7 +71,9 @@ nav {
 
 .nav-links:hover{
     transition: all 0.2s ease-out;
-    color: black;
+    color: #514A9D;
+    font-weight: bold;
+    font-size: 1rem;
     cursor: pointer;
 }
 
