@@ -6,12 +6,12 @@ class Subscribe extends Component {
         return(
             <Fragment>
 
-                {/* <div className="youtube">
+                <div className="youtube">
                     
                     <iframe id="ytplayer" type="text/html" width="100%" height="400"
-                    src="https://www.youtube.com/embed/DmKLNkkeBsQ?autoplay=1&origin=https://bauroziq.com"
+                    src="https://www.youtube.com/embed/DmKLNkkeBsQ?autoplay=0&origin=https://bauroziq.com"
                     frameborder="0"></iframe>
-                </div> */}
+                </div>
 
                 <div id="subscribe" className="subscribe">
                     <div className="subscribe-title">
