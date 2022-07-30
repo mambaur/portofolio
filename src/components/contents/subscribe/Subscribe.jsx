@@ -7,10 +7,13 @@ class Subscribe extends Component {
             <Fragment>
 
                 <div className="youtube">
-                    
-                    <iframe id="ytplayer" type="text/html" width="100%" height="400"
+                    <div className="container-youtube">
+                        <div className="iframe-wrapper">
+                            <iframe id="ytplayer" type="text/html" width="100%"
                     src="https://www.youtube.com/embed/DmKLNkkeBsQ?autoplay=0&origin=https://bauroziq.com"
                     frameborder="0"></iframe>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="subscribe" className="subscribe">

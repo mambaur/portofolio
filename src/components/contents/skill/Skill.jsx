@@ -20,7 +20,7 @@ class Skill extends Component{
         return(
             <Fragment>
                 <div id="skill" className="skill">
-                    <h1>My Skill 🐱‍🏍</h1>
+                    <h1>My Skill 🚀</h1>
                     <p>My Skill Performance In Technology</p>
                     <div className="skill-item">
                         <Link to="/skill/flutter" className="skill-card">

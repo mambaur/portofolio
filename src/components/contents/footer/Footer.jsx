@@ -51,7 +51,7 @@ class Footer extends Component {
                         <a className="footer-icon-link" href="https://github.com/mambaur" target="_blank"><i class="fab fa-github"></i></a>
                         <a className="footer-icon-link" href="https://www.linkedin.com/in/mambaur-roziq-605962167/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a className="footer-icon-link" href="https://www.instagram.com/bauroziq/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                        <a className="footer-icon-link" href="https://web.facebook.com/alwi.roziq/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a className="footer-icon-link" href="https://facebook.com/alwi.roziq/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         <a className="footer-icon-link" href="https://www.youtube.com/bauroziq" target="_blank"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>

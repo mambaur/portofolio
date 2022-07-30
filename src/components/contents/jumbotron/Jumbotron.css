@@ -29,6 +29,10 @@
     margin-left: 5px;
 }
 
+.jumbotron {
+    padding-top: 50px;
+}
+
 .jumbotron .row .btn-jumbotron a{
     display: inline-block;
     width: 145px;
@@ -58,6 +62,7 @@
 }
 
 .jumbotron .row .img-jumbotron {
+    /* margin-top: 50px; */
     width: 500px;
 }
 
